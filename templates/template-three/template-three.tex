@@ -1,0 +1,155 @@
+%-------------------------
+% Ankit Nair - Fancy Resume
+%------------------------
+
+\documentclass[11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage{inter}
+\renewcommand*\familydefault{\sfdefault}
+
+\usepackage{geometry}
+\geometry{
+a4paper,
+top=1.8cm,
+bottom=1in,
+left=2.5cm,
+right=2.5cm
+}
+
+\setcounter{secnumdepth}{0}
+\pdfgentounicode=1
+
+\usepackage[dvipsnames]{xcolor}
+\colorlet{icnclr}{gray}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep, leftmargin=*}
+\setlist[description]{itemsep=0pt}
+
+\usepackage{titlesec}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\titleformat{\section}{\color{Sepia}\large\bfseries\uppercase}{}{}{\ruleafter}
+\titleformat{\subsection}{\large\bfseries}{}{}{}
+\titleformat{\subsubsection}{\normalsize}{}{}{}
+
+\usepackage{xhfill}
+\newcommand\ruleafter[1]{#1~\xrfill[.5ex]{1pt}[gray]}
+
+\usepackage{fontawesome5}
+
+\usepackage[bookmarks=false]{hyperref}
+\hypersetup{
+    colorlinks=true,
+    urlcolor=Sepia,
+}
+
+\setlength{\parindent}{0pt}
+
+\begin{document}
+
+%========== HEADER ==========
+\begin{center}
+    {\fontsize{32}{32}\selectfont \textbf{ANKIT}} \\ \bigskip
+    
+    \small
+    {\color{icnclr}\faEnvelope} \href{mailto:ankitnair8871@gmail.com}{ankitnair8871@gmail.com} \hspace{8pt} • \hspace{8pt}
+    {\color{icnclr}\faIcon{mobile-alt}} \href{tel:+919131130573}{+91 9131130573} \hspace{8pt} • \hspace{8pt}
+    {\color{icnclr}\faLinkedinIn} \href{https://www.linkedin.com/in/ankit-nair-a57414187}{LinkedIn} \hspace{8pt} • \hspace{8pt}
+    {\color{icnclr}\faGithub} \href{https://github.com/ankit8871261605}{GitHub}
+\end{center}
+
+%========== SUMMARY ==========
+\section{Summary}
+Software Development Engineer with 4+ years of experience in backend systems, WordPress plugin architecture, and API integrations. Skilled in building scalable applications, automating workflows, and delivering production-grade solutions.
+
+%========== EXPERIENCE ==========
+\section{Experience}
+
+\subsection{Relay Human Cloud India Pvt. Ltd. \hfill Jan 2026 -- Present}
+\subsubsection{Software Developer \hfill Ahmedabad, India}
+\begin{itemize}
+\item Architected and developed an in-house \textbf{MSA and digital signature system}, eliminating DocuSign dependency and improving execution efficiency by \textbf{~40\%}
+\item Built custom WordPress plugins to automate data validation, reducing manual errors by \textbf{~30\%}
+\item Implemented \textbf{cron-based automation pipelines} for background processing
+\item Integrated multiple \textbf{REST APIs} for real-time system synchronization
+\item Optimized performance and UI responsiveness for improved user experience
+\end{itemize}
+
+\subsection{Elula Tech Pvt. Ltd. \hfill Jul 2022 -- Dec 2025}
+\subsubsection{Software Development Engineer \hfill Bangalore, India}
+\begin{itemize}
+\item Engineered scalable \textbf{WordPress and WooCommerce plugins} using PHP, React, and jQuery
+\item Designed backend systems using \textbf{OOP, SOLID principles, and design patterns}
+\item Integrated \textbf{FedEx APIs} and \textbf{OpenAI APIs} into production systems
+\item Contributed to \textbf{ReachShip SaaS platform} supporting multi-carrier shipping integrations
+\end{itemize}
+
+%========== PROJECTS ==========
+\section{Projects}
+
+\subsection{ReachShip – Multi-Carrier Shipping Platform}
+\begin{itemize}
+\item Built scalable SaaS platform supporting real-time shipping integrations
+\item Integrated FedEx APIs for live tracking and pricing
+\item Optimized API communication for improved reliability
+\end{itemize}
+
+\subsection{WordPress CRM Plugins}
+\begin{itemize}
+\item Developed CRM features improving customer support workflows
+\item Integrated OpenAI ChatGPT API for AI-driven automation
+\item Enhanced UI/UX for better usability
+\end{itemize}
+
+\subsection{WooCommerce Pricing Plugins}
+\begin{itemize}
+\item Built dynamic pricing modules including Name Your Price
+\item Improved personalization and user engagement
+\end{itemize}
+
+\subsection{Google Product Feed Plugin}
+\begin{itemize}
+\item Integrated WooCommerce with Google Merchant Center
+\item Automated product feed synchronization using Content API
+\end{itemize}
+
+%========== SKILLS ==========
+\section{Skills}
+\begin{description}
+\item[Languages] PHP, JavaScript, Java
+\item[Frameworks] React.js, Node.js, Express.js, jQuery
+\item[Web] HTML, CSS, Bootstrap, AJAX
+\item[Backend] REST APIs, SQL, JDBC
+\item[Concepts] OOP, MVC, SOLID Principles, Design Patterns, Scalable Systems
+\item[Tools] Git, Jira, Bitbucket, VS Code
+\end{description}
+
+%========== CERTIFICATIONS ==========
+\section{Certifications}
+\begin{itemize}
+\item Java Full Stack Development — jSpiders, Bangalore
+\item Namaste JavaScript — NamasteDev
+\item Namaste React — NamasteDev
+\end{itemize}
+
+%========== EDUCATION ==========
+\section{Education}
+
+\subsection{Shri Shankaracharya Engineering College \hfill 2017 -- 2021}
+\subsubsection{B.E. Computer Science}
+
+\subsection{M.G.M Senior Secondary School}
+\begin{itemize}
+\item Class XII \hfill 2016 -- 2017
+\item Class X \hfill 2014 -- 2015
+\end{itemize}
+
+%========== ACHIEVEMENTS ==========
+\section{Achievements}
+\begin{itemize}
+\item Rising Star Award – Elula Tech Pvt. Ltd. for outstanding performance
+\end{itemize}
+
+\end{document}

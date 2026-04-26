@@ -1,0 +1,139 @@
+%-------------------------
+% Ankit Nair - Office Template Resume
+%------------------------
+
+\documentclass{article}
+
+\usepackage[sfdefault,light]{FiraSans}
+\usepackage{geometry}
+\geometry{a4paper,margin=0.8in,top=0.5in,bottom=0.5in}
+\pagestyle{empty}
+\setcounter{secnumdepth}{0}
+
+\usepackage{microtype}
+\usepackage{fontawesome5}
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=*,label=\faCaretRight,itemsep=0pt}
+
+\usepackage{xcolor}
+\definecolor{background}{HTML}{0D47A1}
+
+\usepackage[explicit]{titlesec}
+\titleformat{\section}{\large\bfseries\color{white}}{}{}{\colorbox{background}{#1}}
+\titleformat{\subsubsection}{\large\itshape}{}{}{#1}
+
+\titlespacing{\subsection}{0pt}{*2}{*0.5}
+\titlespacing{\subsubsection}{0pt}{*0}{*0.5}
+
+\newcommand{\rside}[1]{\hfill \normalfont\scshape\MakeLowercase{#1}}
+
+\usepackage[bookmarks=false,hidelinks]{hyperref}
+
+\begin{document}
+
+%========== HEADER ==========
+\begin{center}
+  \begin{minipage}{0.6\textwidth}
+    {\Huge\bfseries ANKIT NAIR}
+  \end{minipage}\hfill
+  \begin{minipage}{0.38\textwidth}
+    \faPhone\ +91 9131130573 \\
+    \href{mailto:ankitnair8871@gmail.com}{\faEnvelope\ ankitnair8871@gmail.com} \\
+    \href{https://www.linkedin.com/in/ankit-nair-a57414187}{\faLinkedin\ LinkedIn} \\
+    \href{https://github.com/ankit8871261605}{\faGithub\ GitHub}
+  \end{minipage}
+\end{center}
+
+%========== SUMMARY ==========
+\section{\faUser\enspace Summary}
+Software Development Engineer with 4+ years of experience in backend development, WordPress plugin architecture, and API integrations. Skilled in building scalable systems, automating workflows, and delivering production-grade solutions.
+
+%========== EXPERIENCE ==========
+\section{\faChartPie\enspace Experience}
+
+\subsection{Relay Human Cloud India Pvt. Ltd. \rside{Jan 2026 -- Present}}
+\subsubsection{Software Developer \rside{Ahmedabad, India}}
+\begin{itemize}
+\item Architected and developed an in-house MSA and digital signature system, eliminating DocuSign dependency
+\item Built custom WordPress plugins improving data accuracy and reducing manual effort by ~30\%
+\item Implemented cron-based automation for background processes
+\item Integrated REST APIs for real-time data synchronization
+\item Improved performance and UI responsiveness
+\end{itemize}
+
+\subsection{Elula Tech Pvt. Ltd. \rside{Jul 2022 -- Dec 2025}}
+\subsubsection{Software Development Engineer \rside{Bangalore, India}}
+\begin{itemize}
+\item Developed scalable WordPress and WooCommerce plugins using PHP, React, and jQuery
+\item Designed backend systems using OOP, SOLID principles, and design patterns
+\item Integrated third-party APIs including FedEx and OpenAI
+\item Contributed to SaaS-based shipping platform (ReachShip)
+\end{itemize}
+
+%========== PROJECTS ==========
+\section{\faFlask\enspace Projects}
+
+\subsection{ReachShip – Multi-Carrier Shipping Platform}
+\begin{itemize}
+\item Built SaaS-based shipping solution supporting multiple carriers
+\item Integrated FedEx APIs for real-time tracking and pricing
+\item Optimized API communication for better performance
+\end{itemize}
+
+\subsection{WordPress CRM Plugins}
+\begin{itemize}
+\item Developed CRM functionalities and automation workflows
+\item Integrated OpenAI APIs for AI-driven features
+\item Improved UI/UX for better usability
+\end{itemize}
+
+\subsection{WooCommerce Pricing Plugins}
+\begin{itemize}
+\item Built dynamic pricing systems including Name Your Price
+\item Enhanced personalization and user engagement
+\end{itemize}
+
+\subsection{Google Product Feed Plugin}
+\begin{itemize}
+\item Integrated WooCommerce with Google Merchant Center
+\item Automated product feed synchronization using Content API
+\end{itemize}
+
+%========== SKILLS ==========
+\section{\faCogs\enspace Skills}
+\begin{description}
+\item[Languages] PHP, JavaScript, Java
+\item[Frameworks] React.js, Node.js, Express.js, jQuery
+\item[Web] HTML, CSS, Bootstrap, AJAX
+\item[Backend] REST APIs, SQL, JDBC
+\item[Concepts] OOP, MVC, SOLID, Design Patterns
+\item[Tools] Git, Jira, Bitbucket, VS Code
+\end{description}
+
+%========== CERTIFICATIONS ==========
+\section{\faCertificate\enspace Certifications}
+\begin{itemize}
+\item Java Full Stack Development — jSpiders, Bangalore
+\item Namaste JavaScript — NamasteDev
+\item Namaste React — NamasteDev
+\end{itemize}
+
+%========== EDUCATION ==========
+\section{\faGraduationCap\enspace Education}
+
+\subsection{Shri Shankaracharya Engineering College \rside{2017 -- 2021}}
+\subsubsection{B.E. Computer Science}
+
+\subsection{M.G.M Senior Secondary School}
+\begin{itemize}
+\item Class XII \rside{2016 -- 2017}
+\item Class X \rside{2014 -- 2015}
+\end{itemize}
+
+%========== ACHIEVEMENTS ==========
+\section{\faTrophy\enspace Achievements}
+\begin{itemize}
+\item Rising Star Award — Elula Tech Pvt. Ltd.
+\end{itemize}
+
+\end{document}
