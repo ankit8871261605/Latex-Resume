@@ -32,7 +32,7 @@ The following code block serves as the foundational structure for each entry in 
 
 
 ## Quick start
-[Edit on Overleaf](https://www.overleaf.com/latex/templates/rover-resume/bpzqtssvfgsn). Or just copy paste the code into your favorite LaTeX editor.
+- just copy paste the code into your favorite LaTeX editor.
 
 ## Getting Started
 1. **Get the Repository**: Fork or Download this repository to your local machine.   
@@ -69,10 +69,6 @@ We can circumvents this issue by disabling the creation of bookmarks as shown be
 > [!CAUTION]
 > To avoid generating warnings, the `bookmarks` option in the `hyperref` package must be set during package loading with `\usepackage[bookmarks=false]{hyperref}`. You can use `\hypersetup{}` for everything else.
 
-
-## Support
-
-For inquiries or assistance, visit the [Discussions](https://github.com/subidit/rover-resume/discussions) tab.
 
 Feel free to contribute to the project or provide feedback by opening an issue or submitting a pull request. 
 
